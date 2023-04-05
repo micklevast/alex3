@@ -1,0 +1,93 @@
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    margin: 1px;
+    margin-bottom: 6px;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 0;
+    gap: 10px; /* add some gap between the icons */
+  }
+  
+  .icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin: 6px 1px;
+    gap: 20px; /* add some gap between the navigation links */
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .search-bar {
+    margin-bottom: 6px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 5px;
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .search-container button[type="submit"] {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .search-container .search-icon {
+    color: #fff;
+  }
+  
+  .copy {
+    font-size: 1rem;
+  }
+  
+  .owner{
+    background-color: blue;
+    width: 100vw;
+    height: 26px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -20px;
+  }
